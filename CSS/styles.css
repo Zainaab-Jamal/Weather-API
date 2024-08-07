@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+ header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #13132b;
+        background-image: url('Images/weather2.png');
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+
+header .logo img {
+    height: 50px;
+}
+
+header .logo h1, header .logo p {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+
+}
+
+header nav ul li :hover{
+    color: #008cba;
+
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #262636;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: #fff;
+    cursor: pointer;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.forecast-day {
+    background-color: #262636;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.weather-info h2 {
+    margin-top: 0;
+}
+
+.temperature {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.condition {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.details p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #13132b;
+}
+
+footer .subscribe input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+footer .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+
+
+}
+footer .social-media {
+    padding-top: 8px;
+
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+    color: #aaa;
+}
